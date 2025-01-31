@@ -133,5 +133,6 @@ dmypy.json
 
 # 用户数据
 user_personas/*
-!user_personas/default.json
+!user_personas/person_123.json
 !user_personas/greetings.json
+!user_personas/intellectual_maid.json  # 添加这行
