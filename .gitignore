@@ -1,13 +1,12 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
+.Python
+*.log
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
@@ -56,7 +55,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -127,3 +125,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 用户数据
+user_personas/*
+!user_personas/default.json
+!user_personas/greetings.json
